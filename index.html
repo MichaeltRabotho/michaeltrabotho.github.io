@@ -1,104 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Thabo Michael Rabotho - Portfolio</title>
-  <link rel="stylesheet" href="MichaeltRabotho/css/style.css" type="text/css" media="screen">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> DevMichaelt Portfolio website</title>
+<link rel="icon" type="image/x-icon" href="/images/profile.jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<!-- update with own font from google font-->
+<link href="https://fonts-googleapis.com/css?family=Source+Code+Pro[400,900]Source+Sans+Pro:300,900 display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-  <header>
-	<img src="/images/profile.jpg">
-    <h1>Thabo Michael Rabotho</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <section id="about">
-      <h2>About</h2>
-      <p>A person with seven years of experience in a health care, funeral and warehouse industry. I am looking forward to taking on new challenges.</p>
-    </section>
+<header>
+<div class="logo">
+<img src="images/nevergiveup.jpg" alt="">
+</div>
+
+<button class="nav-toggle" aria-label="toggle navigation">
+<span class="hamburger"></span>
+</button>
+
+<nav class="nav">
+<ul class="nav__list">
+<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+<li class="nav__item"><a href="#services" class="nav__link">Michaelt's Services</a></li>
+<li class="nav__item"><a href="#about" class="nav__link">About Michaelt</a></li>
+<li class="nav__item"><a href="#work" class="nav__link">Michaelt's works</a></li>
+</ul>
+
+</nav>
+</header>
+
+<!-- Introduction -->
+<section class="intro" id="home">
+<h1 class="section__title section__title--intro">
+Hi, I am <strong>Michael T Rabotho.</strong>
+</h1>
+<p class="section__subtitle section__subtitle--intro">Full-stack dev</p>
+<img src="images/devMichaelt.png" alt="a picture of DevMichaelt smiling." class="intro__img">
+</section>
+
+<!-- My services -->
+<section class="my-services" id="services">
+<h2 class="section__title section__title--services">What I do</h2>
+
+<div class="services">
+
+<div class="service">
+<h3>Design & Development</h3>
+<p>I develop and deploy fullstack website projects using HTML,CSS,Javascript, expressJS and NodeJS.</p>
+</div> <!-- /close service -->
+
+<div class="service">
+<h3>Visual Marchandiser</h3>
+<p>Resposible for visuals set-up in-store at Woolworths.</p>
+</div> <!-- /close service -->
+
+<div class="service">
+<h3>Database Development and Management</h3>
+<p>I use SQL to query and to manage databasses.</p>
+</div> <!-- /close service -->
+
+</div> <!-- /close services -->
+
+<a href="#work" class="btn">My Work</a>
+</section>
+</div>
+
+<!-- About me -->
+<section class="about-me" id="about">
+<h2 class="section__title section__title--about">Who I am</h2>
+<p class="section__subtitle section__subtitle--about">self-taught dev based in South Africa </p>
+
+<div class="about-me__body">
+<p>I am this this and that.</p>
+<p>started dev at ...</p>
+</div>
+
+<img src="images/aboutdevMichaelt.jpg" alt="Michaelt feeling blissful" class="about-me__img">
+</section>
+
+<section class="my-work" id="work">
+<h2 class="section__title">My work</h2>
+<p class="section__subtitle section__subtitle--about">
+A selection of my range of work</p>
+
+<div class="portfolio">
+<a href="#" class="portfolio__item">
+<img src="images/Python_Programming_Hub_Cert.jpeg" alt="" class="portfolio__image"></a>
+</div>
+
+<div class="portfolio">
+<a href="#" class="portfolio__item">
+<img src="images/fundamentals_cert_1.png" alt="" class="portfolio__image"></a>
+</div>
 
 
-    <section id="experience">
-      <h2>Experience</h2>
+<div class="portfolio">
+<a href="#" class="portfolio__item">
+<img src="images/fundamentals_cert_2.png" alt="" class="portfolio__image"></a>
+</div>
+</section>
 
-      <ul>
-        <li>
-          <h3>Administration Clerk - Botswana Funeral Services</h3>
-          <p>July 2020-July 2022</p>
-          <ul>
-            <li>Received calls from clients</li>
-            <li>Attended to clients queries</li>
-            <li>Cashier</li>
-            <li>Updated clients information</li>
-            <li>Opened funeral covers</li>
-            <li>Marketing</li>
-            <li>Banking</li>
-            <li>Transporting deceased and their family members to grave yard</li>
-            <li>Collecting and transporting stock</li>
-          </ul>
-        </li>
-        
-	<li>
-          <h3>Porter - Job Shimankana Tabane Hospital</h3>
-          <p>2017 - 2018</p>
-          <ul>
-            <li>Wheeling patients from different wards to clinics and theaters within the hospital</li>
-            <li>Taking care and cleaning wheelchairs</li>
-            <li>Ordering oxygen cylinders & delivering cylinders to different wards</li>
-            <li>Collecting bodies from different wards to mortuary for storage</li>
-          </ul>
-        </li>
-        
-	<li>
-          <h3>General Worker - Cash Build Rustenburg</h3>
-          <p>2016</p>
-          <ul>
-            <li>Cleaning the warehouse</li>
-            <li>Loading and off-loading stock</li>
-            <li>Stock packer</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
-    
-<section id="education">
-      <h2>Education</h2>
-      <ul>
-        <li>
-          <h3>Lesele Secondary School</h3>
-          <p>December 2019</p>
-          <p>Grade 12, Matriculated</p>
-        </li>
+<div class="portfolio">
+<a href="#" class="portfolio__item">
+<img src="images/imgDev.jpg" alt="" class="portfolio__image"></a>
+</div>
 
-        <li>
-          <h3>SA Maritime School & Transport College</h3>
-          <p>January 2015</p>
-	  <p>Unitstandards completed NQF02</p>
-	   </li>
+<div class="portfolio">
+<a href="#" class="portfolio__item">
+<img src="images/imgdev2.jpg" alt="" class="portfolio__image"></a>
+</div>
 
-	<section id="skills">
-	<h2>Skills</h2>
-	<ul>
-	  <li>
-	<h3>HTML,CSS,JS,MariaDB</h3>
-	<p>fullstack webbsite development</p>
-	 </li>
+<div class="portfolio">
+<a href="#" class="portfolio__item">
+<img src="images/mimo-certificates-145-1.pdf" alt="" class="portfolio__image"></a>
+</div>
 
-	<section id="contact">
-	<h2>Contacts</h2>
-Email:
-	<a href="www.michaeltrabotho@gmail.com">michaelt@gmail</a>
-	
+<!-- footer -->
+<footer>
+<br>
+<!-- replace with your email address -->
+<a href="mailto:michaeltrabotho@gmail.com" class="footer__link">michaeltrabotho@gmail.com</a>
+
+<ul class="social-list">
+<li class="social-list__item">
+<a class="social-list__link" href="#"><i class="fab fa-codepen"></i>
+</a>
+</li>
+
+<li class="social-list__item">
+<a class="social-list__link" href="#"><i class="fab fa-facebook"></i></a></li>
+
+<li class="social-list__item">
+<a class="social-list__link" href="#"><i class="fab fa-diviantart"></i></a></li>
+
+<li class="social-list__item">
+<a class="social-list__link" href="#"><i class="fab fa-github"></i></a></li>
+</ul>
+</footer>
+
+<script src="js/index.js"></script>
+</body>
 </html>
